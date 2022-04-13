@@ -1,3 +1,10 @@
+import React from 'react'
+import { Footers } from './components/Footer'
+
+function App() {
+	return (
+        <Footers />
+	)
 import React from "react";
 import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
@@ -39,6 +46,8 @@ class App extends React.Component {
         <Header changePage={this.changePage} />
 
         {renderCurrentPage()}
+
+		<Footers />
       </div>
     );
   }
