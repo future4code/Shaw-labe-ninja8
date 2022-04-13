@@ -1,9 +1,9 @@
 import React from 'react'
-import { AppContainer } from './components/AppContainer'
+import { Footers } from './components/Footer'
 
 function App() {
 	return (
-        <AppContainer />
+        <Footers />
 	)
 }
 
