@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Footers } from './components/Footer'
 
 function App() {
@@ -9,7 +9,7 @@ import React from "react";
 import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-// import RegisterNinja from "./components/RegisterNinja/RegisterNinja";
+import RegisterNinja from "./components/RegisterNinja/RegisterNinja";
 
 class App extends React.Component {
   state = {
