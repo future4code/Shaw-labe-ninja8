@@ -1,6 +1,9 @@
 <h1 align="center">
 Labeninjas
-<img src="../Shaw-labe-ninja8/src/assets/print.png">
+
+![print](https://user-images.githubusercontent.com/67668995/163467654-85982da6-3313-491c-8c43-d04dab182678.png)
+
+
 </h1>
 
 <p align="center">
