@@ -1,5 +1,6 @@
 <h1 align="center">
 Labeninjas
+<img src="../Shaw-labe-ninja8/src/assets/print.png">
 </h1>
 
 <p align="center">
@@ -26,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O labeninja é um site de comercio de prestação de serviços no qual é possivel fazer sua inscrição para oferecer algum tipo de serviço ou buscar um serviço para contratar 
 
 ## 👀 Surge
-Você pode visualizar o site  através [desse link]( ) 
+Você pode visualizar o site  através [desse link](labeninjas-shaw.surge.sh) 
 
 ## ✍ Layout
 
@@ -63,8 +64,8 @@ $ npm start
 ```
 
 ## ✒️ Author
-| <img src='https://github.com/nicksoto1.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/Tryndamoron.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/PabloAndrade28.png' style="border-radius: 50%;"  width="100px;" />   | <img src='https://github.com/Meparanhos.png' style="border-radius: 50%;"  width="100px;" />  |
-|----------|:---------|:--------:|---------:|
-| [Michael Soto](https://github.com/nicksoto1) | [Tácio Franco](https://github.com/Tryndamoron) | [Pablo Andrade](https://github.com/PabloAndrade28) | [Mauricio Paranhos](https://github.com/PabloAndrade28) |
+| <img src='https://github.com/nicksoto1.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/Tryndamoron.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/PabloAndrade28.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/Meparanhos.png' style="border-radius: 50%;"  width="100px;" /> |
+| ------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------: |
+| [Michael Soto](https://github.com/nicksoto1)                                               | [Tácio Franco](https://github.com/Tryndamoron)                                               |                       [Pablo Andrade](https://github.com/PabloAndrade28)                        |                                      [Mauricio Paranhos](https://github.com/PabloAndrade28) |
 
 
