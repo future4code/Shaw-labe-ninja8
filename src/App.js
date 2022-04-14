@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import RegisterNinja from "./components/RegisterNinja/RegisterNinja";
 import { Footers } from "./components/Footer";
 import Cart from "./components/Cart/Cart";
+import NinjaServices from "./components/NinjaServices/NinjaServices"
 
 import { ThemeProvider } from "@material-ui/core/styles";
 import { theme } from "./constants/theme";
@@ -30,8 +31,8 @@ class App extends React.Component {
         case "registerNinja":
           return <RegisterNinja />;
 
-        // case "ninjaServices":
-        //   return <NinjaServices />;
+        case "ninjaServices":
+          return <NinjaServices />;
 
         default:
           return <Home />;
