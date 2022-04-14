@@ -8,6 +8,7 @@ export const ContainerHome = styled.div`
   justify-content: center;
   align-items: center;
   height: 80vh;
+
 `;
 
 export const ContainerSection = styled(Container)`
@@ -24,6 +25,12 @@ export const ContainerImg = styled.div`
   img {
     width: 20%;
     height: 100%;
+  }
+       @media (min-width: 2000px),(max-width: 900px){
+       img {
+       width: 70%;
+    height: 100%;
+    }
   }
 `;
 

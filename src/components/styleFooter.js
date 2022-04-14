@@ -10,7 +10,14 @@ export const ContainerFooter = styled.footer`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
+  @media (min-width: 2000px),(max-width: 900px){
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;    
+
+}
 `;
 
 export const ColumnInfo = styled.div`

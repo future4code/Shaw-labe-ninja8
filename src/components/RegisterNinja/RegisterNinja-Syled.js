@@ -13,6 +13,12 @@ export const ContainerPrincipal = styled.div`
     align-self: center;
     font-size: 2rem;
   }
+
+  @media (min-width: 2000px), (max-width: 900px) {
+    font-size: 10px;
+    width: 20em;
+    margin-bottom: 50px;         
+}
 `
 
 export const Pagamento = styled.div`
@@ -37,3 +43,4 @@ export const P = styled.p`
   margin-top: 2%;
   color: #6e6e6e;
 `
+

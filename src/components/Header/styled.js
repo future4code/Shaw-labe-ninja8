@@ -7,6 +7,10 @@ export const HeaderContainer = styled(AppBar)`
   justify-content: space-between ;
   align-items: center;
   padding: 1em;
+  @media (max-width: 400px){
+    display: flex;
+     align-items: center;     
+  }
 
 `;
 
