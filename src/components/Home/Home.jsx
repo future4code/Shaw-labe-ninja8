@@ -34,7 +34,7 @@ class Home extends React.Component {
               this.props.changePage("registerNinja");
             }}
             >
-              Register Ninja
+              Cadastrar Serviço
             </StyleButton>
 
             <StyleButton variant="contained" color="primary"
@@ -42,7 +42,7 @@ class Home extends React.Component {
               this.props.changePage("ninjaServices");
             }}
             >
-              Ninja Services
+              Lista de Serviços
             </StyleButton>
             
           </ContainerButton>

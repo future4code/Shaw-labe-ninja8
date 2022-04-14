@@ -13,6 +13,7 @@ export const HeaderContainer = styled(AppBar)`
 export const StyleContainer = styled(Container)`
   display: flex !important;
   justify-content: space-between !important;
+ 
 `;
 
 
@@ -21,6 +22,7 @@ export const Navigation = styled.nav`
   width: 100px;
   justify-content: space-between;
   cursor: pointer;
+  gap: 2em;
 
   & div:hover {
     color: #ffff1c;

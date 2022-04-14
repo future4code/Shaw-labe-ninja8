@@ -5,25 +5,19 @@ import { Navigation, HeaderContainer, StyleContainer } from "./styled";
 class Header extends React.Component {
   render() {
     return (
-      <HeaderContainer color="secondary">
+      <HeaderContainer color="secondary" position="static">
        <StyleContainer>
         <Typography>
           LABENINJAS
           </Typography>
           <Navigation>
-            <div onClick={() => this.props.changePage("home")}>Home</div>
-            <div onClick={() => this.props.changePage("cart")}>Cart</div>
+            <div onClick={() => this.props.changePage("home")}>Inicio</div>
+            <div onClick={() => this.props.changePage("cart")}>Carrinho</div>
           </Navigation>
          </StyleContainer> 
       </HeaderContainer>
 
-      // <HeaderContainer >
-      //   LABENINJAS
-      //   <Navigation>
-      //     <div onClick={() => this.props.changePage("home")}>Home</div>
-      //     <div onClick={() => this.props.changePage("cart")}>Cart</div>
-      //   </Navigation>
-      // </HeaderContainer>
+     
     );
   }
 }
