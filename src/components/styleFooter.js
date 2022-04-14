@@ -10,8 +10,6 @@ export const ContainerFooter = styled.footer`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 10px;
-  margin-top: 700px;
   margin-bottom: 50px;
 `;
 
