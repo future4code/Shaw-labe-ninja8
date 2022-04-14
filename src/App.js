@@ -1,15 +1,12 @@
-import React from 'react';
-import { Footers } from './components/Footer'
-
-function App() {
-	return (
-        <Footers />
-	)
 import React from "react";
-import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import RegisterNinja from "./components/RegisterNinja/RegisterNinja";
+import { Footers } from "./components/Footer";
+import Cart from "./components/Cart/Cart";
+
+import { ThemeProvider } from "@material-ui/core/styles";
+import { theme } from "./constants/theme";
 
 class App extends React.Component {
   state = {
@@ -33,8 +30,8 @@ class App extends React.Component {
         case "registerNinja":
           return <RegisterNinja />;
 
-        case "ninjaServices":
-          return <NinjaServices />;
+        // case "ninjaServices":
+        //   return <NinjaServices />;
 
         default:
           return <Home />;
@@ -42,13 +39,12 @@ class App extends React.Component {
     };
 
     return (
-      <div>
+      <ThemeProvider theme={theme}>
         <Header changePage={this.changePage} />
-
         {renderCurrentPage()}
 
-		<Footers />
-      </div>
+        <Footers />
+      </ThemeProvider>
     );
   }
 }
