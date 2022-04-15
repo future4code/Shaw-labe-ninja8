@@ -4,7 +4,7 @@ import {
   ContainerFooter,
   ContainerIcones,
   ColumnInfo,
-} from "../components/styleFooter";
+} from "./styleFooter";
 import {
   BsFacebook,
   BsInstagram,

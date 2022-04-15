@@ -1,4 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { cor2, cor3 } from "../../assets/pallete";
+import { Button } from "@material-ui/core";
 
 export const NinjaServicesListContainer = styled.div`
   display: grid;
@@ -9,13 +12,11 @@ export const NinjaServicesListContainer = styled.div`
   align-items: center;
   width: auto;
   height: auto;
-  @media (min-width: 2000px),(max-width: 1000px){
+  @media (min-width: 2000px), (max-width: 1000px) {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-
   }
 `;
 
@@ -29,9 +30,24 @@ export const CardNinjaService = styled.div`
   justify-content: center;
   padding: 0 16px 16px 16px;
   margin: 12px;
-  
 `;
-export const Button = styled.button`
-  border-radius: 5px;
-  margin-right: 2px;
+
+export const ContainerButton = styled.div`
+  display: flex;
+  gap: 1em;
+`;
+
+export const StyleButton = styled(Button)`
+  display: flex;
+  color: ${cor2} !important;
+  background-color: ${cor3} !important;
+  height: 3.2em;
+  font-size: 0.7em !important;
+  /* width: 20%; */
+`;
+
+export const IconCart = styled(AiOutlineShoppingCart)`
+  cursor: pointer;
+  font-size: 2em;
+  color: ${cor2};
 `;
