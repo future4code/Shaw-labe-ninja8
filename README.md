@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O labeninja é um site de comercio de prestação de serviços no qual é possivel fazer sua inscrição para oferecer algum tipo de serviço ou buscar um serviço para contratar 
 
 ## 👀 Surge
-Você pode visualizar o site  através [desse link](labeninjas-shaw.surge.sh) 
+Você pode visualizar o site  através [desse link](https://labeninjas-shaw.surge.sh) 
 
 ## ✍ Layout
 
