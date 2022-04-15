@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { key } from '../constants/labeninjaAPI';
+import { key } from '../../constants/labeninjaAPI';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import { ContainerPrincipal, Pagamento, Form, Checkbox, P } from './RegisterNinja-Syled';

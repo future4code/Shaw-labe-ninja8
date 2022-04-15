@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import Home from "./pages/Home/Home";
 import RegisterNinja from "./components/RegisterNinja/RegisterNinja";
-import { Footers } from "./components/Footer";
-import Cart from "./components/Cart/Cart";
+import { Footers } from "./components/Footer/Footer";
+import Cart from "./pages/Cart/Cart";
 import NinjaServices from "./components/NinjaServices/NinjaServices";
 
 import { ThemeProvider } from "@material-ui/core/styles";

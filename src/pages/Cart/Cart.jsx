@@ -1,11 +1,7 @@
 import { Button } from "@material-ui/core";
 import React from "react";
-import styled from "styled-components";
-import CartCard from "../CartCard/CardCart";
-
-export const CartContainer = styled.div`
-  height: 100vh;
-`;
+import { ButtonContainer, SuccessButton } from "./styled";
+import CartCard from "../../components/CartCard/CardCart";
 
 class Cart extends React.Component {
   render() {
@@ -32,13 +28,23 @@ class Cart extends React.Component {
         {cartComponents.length > 0 ? (
           <div>
             {cartComponents}
-            <span>Total: R${totalPrice.toFixed(2)}</span>
-            <Button onClick={() => this.props.clearCart()}>
-              Finalizar Comprar
-            </Button>
-            <Button onClick={() => this.props.changePage("ninjaServices")}>
-              Voltar para a Lista
-            </Button>
+
+            <ButtonContainer>
+              <SuccessButton
+                variant="contained"
+                onClick={() => this.props.clearCart()}
+              >
+                Finalizar Comprar
+              </SuccessButton>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => this.props.changePage("ninjaServices")}
+              >
+                Voltar para a Lista
+              </Button>
+              <span>Total: R${totalPrice.toFixed(2)}</span>
+            </ButtonContainer>
           </div>
         ) : (
           <div>

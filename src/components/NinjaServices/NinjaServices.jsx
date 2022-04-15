@@ -1,8 +1,14 @@
 import React from "react";
 import axios from "axios";
-import { NinjaServicesListContainer, Button, CardNinjaService } from "./styled";
-import { key } from "../constants/labeninjaAPI";
-import { labeninjasURL } from "../constants/labeninjaAPI";
+import {
+  NinjaServicesListContainer,
+  StyleButton,
+  CardNinjaService,
+  IconCart,
+  ContainerButton,
+} from "./styled";
+import { key } from "../../constants/labeninjaAPI";
+import { labeninjasURL } from "../../constants/labeninjaAPI";
 
 class NinjaServices extends React.Component {
   state = {
@@ -81,19 +87,21 @@ class NinjaServices extends React.Component {
         return (
           jobTitle.includes(searchText) || jobDescription.includes(searchText)
         );
-      })
-      .sort((a, b) => {
-        switch (this.state.order) {
-          case "Menor Valor":
-            return a.price - b.price;
-          case "Maior Valor":
-            return b.price - a.price;
-          case "Título":
-            return a.title.localeCompare(b.title);
-          case "Prazo":
-            return a.dueDate.localeCompare(b.dueDate);
-        }
       });
+
+    // FIXME Completar inputs
+    // .sort((a, b) => {
+    //   switch (this.state.order) {
+    //     case "Menor Valor":
+    //       return a.price - b.price;
+    //     case "Maior Valor":
+    //       return b.price - a.price;
+    //     case "Título":
+    //       return a.title.localeCompare(b.title);
+    //     case "Prazo":
+    //       return a.dueDate.localeCompare(b.dueDate);
+    //   }
+    // });
 
     this.setState({ filteredJobsList: newJobsList });
   };
@@ -110,14 +118,15 @@ class NinjaServices extends React.Component {
             <p>
               <b>Prazo: {job.dueDate}</b>
             </p>
-            <div>
-              <Button onClick={() => this.props.vaiParaDetalhes(job.id)}>
+            <ContainerButton>
+              <StyleButton onClick={() => this.props.vaiParaDetalhes(job.id)}>
                 Ver detalhes
-              </Button>
-              <Button onClick={() => this.props.addCart(job)}>
+              </StyleButton>
+              <StyleButton onClick={() => this.props.addCart(job)}>
                 Adicionar ao Carrinho
-              </Button>
-            </div>
+                <IconCart />
+              </StyleButton>
+            </ContainerButton>
           </CardNinjaService>
         </>
       );
