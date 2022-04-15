@@ -9,6 +9,14 @@ export const NinjaServicesListContainer = styled.div`
   align-items: center;
   width: auto;
   height: auto;
+  @media (min-width: 2000px),(max-width: 1000px){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+  }
 `;
 
 export const CardNinjaService = styled.div`
@@ -21,6 +29,7 @@ export const CardNinjaService = styled.div`
   justify-content: center;
   padding: 0 16px 16px 16px;
   margin: 12px;
+  
 `;
 export const Button = styled.button`
   border-radius: 5px;
