@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/)
 - [Styled-Components](https://styled-components.com/)
 - [Mui](https://mui.com/pt/)
-  [React-icons](https://react-icons.github.io/react-icons/)
+- [React-icons](https://react-icons.github.io/react-icons/)
 
 ## 💻 Projeto
 
