@@ -8,11 +8,13 @@ import NinjaServices from "./components/NinjaServices/NinjaServices";
 
 import { ThemeProvider } from "@material-ui/core/styles";
 import { theme } from "./constants/theme";
+import Details from "./components/NinjaServices/Details";
 
 class App extends React.Component {
   state = {
     currentPage: "home",
     cart: [],
+    jobDetailId: ""
   };
 
   // ANCHOR MUDAR PAGINA
@@ -47,6 +49,10 @@ class App extends React.Component {
     alert("Obrigada por comprar com a gente!");
   };
 
+  goToDetails = (jobId) => {
+    this.setState({currentPage: "detail", jobDetailId: jobId})
+  }
+
   render() {
     const renderCurrentPage = () => {
       switch (this.state.currentPage) {
@@ -67,7 +73,10 @@ class App extends React.Component {
           return <RegisterNinja />;
 
         case "ninjaServices":
-          return <NinjaServices addCart={this.addToCart} />;
+          return <NinjaServices addCart={this.addToCart} goToDetails={this.goToDetails}/>;
+
+        case "detail":
+          return <Details jobId={this.state.jobDetailId} changePage={this.changePage}/>;
 
         default:
           return <Home />;
