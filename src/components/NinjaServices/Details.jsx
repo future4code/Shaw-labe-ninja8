@@ -1,8 +1,8 @@
 import React from "react";
 import axios from 'axios';
 import styled from "styled-components";
-import { key } from '../constants/labeninjaAPI';
-import { labeninjasURL } from '../constants/labeninjaAPI';
+import { key } from '../../constants/labeninjaAPI';
+import { labeninjasURL } from '../../constants/labeninjaAPI';
 import {convertDate} from "../utils/convertDate";
 
 const DetailsContainer = styled.div`
