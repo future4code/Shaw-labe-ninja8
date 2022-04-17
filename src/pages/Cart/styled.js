@@ -17,4 +17,5 @@ export const ButtonContainer = styled.div`
 export const SuccessButton = styled(Button)`
   background: ${success} !important;
   color: #fffefe !important;
+
 `;
