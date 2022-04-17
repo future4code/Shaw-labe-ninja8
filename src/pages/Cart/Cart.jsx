@@ -1,4 +1,4 @@
-import { Button } from "@material-ui/core";
+import { Button, Container } from "@material-ui/core";
 import React from "react";
 import { ButtonContainer, SuccessButton } from "./styled";
 import CartCard from "../../components/CartCard/CardCart";
@@ -31,6 +31,7 @@ class Cart extends React.Component {
 
             <ButtonContainer>
               <SuccessButton
+              
                 variant="contained"
                 onClick={() => this.props.clearCart()}
               >

@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-<<<<<<< HEAD
 import {
   NinjaServicesListContainer,
   StyleButton,
@@ -10,12 +9,7 @@ import {
 } from "./styled";
 import { key } from "../../constants/labeninjaAPI";
 import { labeninjasURL } from "../../constants/labeninjaAPI";
-=======
-import { NinjaServicesListContainer, Button, CardNinjaService } from "./styled";
-import { key } from "../constants/labeninjaAPI";
-import { labeninjasURL } from "../constants/labeninjaAPI";
-import {convertDate} from "../utils/convertDate";
->>>>>>> Projeto-MauricioParanhos
+import { convertDate } from "../utils/convertDate";
 
 class NinjaServices extends React.Component {
   state = {
@@ -120,18 +114,15 @@ class NinjaServices extends React.Component {
           <CardNinjaService key={job.id}>
             <h3>{job.title}</h3>
             <p>
-              <b>Preço: </b>{job.price.toFixed(2)}
+              <b>Preço: </b>
+              {job.price.toFixed(2)}
             </p>
             <p>
-              <b>Prazo: </b>{convertDate(job.dueDate)}
+              <b>Prazo: </b>
+              {convertDate(job.dueDate)}
             </p>
-<<<<<<< HEAD
             <ContainerButton>
-              <StyleButton onClick={() => this.props.vaiParaDetalhes(job.id)}>
-=======
-            <div>
-              <Button onClick={() => this.props.goToDetails(job.id)}>
->>>>>>> Projeto-MauricioParanhos
+              <StyleButton onClick={() => this.props.goToDetails(job.id)}>
                 Ver detalhes
               </StyleButton>
               <StyleButton onClick={() => this.props.addCart(job)}>

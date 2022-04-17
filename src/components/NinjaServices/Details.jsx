@@ -1,9 +1,10 @@
 import React from "react";
 import axios from 'axios';
 import styled from "styled-components";
-import { key } from '../constants/labeninjaAPI';
-import { labeninjasURL } from '../constants/labeninjaAPI';
+import { key } from '../../constants/labeninjaAPI';
+import { labeninjasURL } from '../../constants/labeninjaAPI';
 import {convertDate} from "../utils/convertDate";
+import { Button } from "@material-ui/core";
 
 const DetailsContainer = styled.div`
     display: grid;
@@ -27,9 +28,9 @@ const DetailsContainer = styled.div`
         margin: 12px;
     }
 `
-const Button = styled.button`
-  border-radius: 5px;
-  margin-top: 10px;
+const StyleButton = styled(Button)`
+  /* border-radius: 5px;
+  margin-top: 10px; */
 `
 
 class Details extends React.Component {
@@ -79,7 +80,9 @@ class Details extends React.Component {
                         <div>
                             {pymentComponents}
                         </div>
-                    <Button onClick={() => this.props.changePage("ninjaServices")}>Voltar para a Lista</Button>
+                    <StyleButton
+                    variant="contained" color="primary"
+                    onClick={() => this.props.changePage("ninjaServices")}>Voltar para a Lista</StyleButton>
                 </div>
             </DetailsContainer>
         );
