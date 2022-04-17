@@ -11,13 +11,13 @@ import labeninjas from "../../assets/labeninjas.png";
 
 
 class Home extends React.Component {
-  state = {
-    currentPage: "home",
-  };
+  // state = {
+  //   currentPage: "home",
+  // };
 
-  changePage = (currentPage) => {
-    this.setState({ currentPage: currentPage });
-  };
+  // changePage = (currentPage) => {
+  //   this.setState({ currentPage: currentPage });
+  // };
 
   render() {
     return (
