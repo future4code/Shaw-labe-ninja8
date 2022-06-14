@@ -68,8 +68,8 @@ $ npm start
 ```
 
 ## ✒️ Author
-| <img src='https://github.com/nicksoto1.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/Tryndamoron.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/PabloAndrade28.png' style="border-radius: 50%;"  width="100px;" /> | <img src='https://github.com/Meparanhos.png' style="border-radius: 50%;"  width="100px;" /> |
+|  <a href="https://github.com/nicksoto1"><img src="https://github.com/nicksoto1.png" width="100"/> </a> |  <a href="https://github.com/Tryndamoron"><img src="https://github.com/Tryndamoron.png" width="100"/> </a> | <a href="https://github.com/PabloAndrade28"><img src="https://github.com/PabloAndrade28.png" width="100"/> </a> |  <a href="https://github.com/Meparanhos"><img src="https://github.com/Meparanhos.png" width="100"/> </a>   |
 | ------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------: |
-| [Michael Soto](https://github.com/nicksoto1)                                               | [Tácio Franco](https://github.com/Tryndamoron)                                               |                       [Pablo Andrade](https://github.com/PabloAndrade28)                        |                                      [Mauricio Paranhos](https://github.com/PabloAndrade28) |
+| Michael Soto| Tácio Franco  | Pablo Andrade | Mauricio Paranhos |
 
 
